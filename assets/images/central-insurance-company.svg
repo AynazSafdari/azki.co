@@ -1,0 +1,32 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Central_insurance_company">
+<g id="Building">
+<path id="ground" d="M4.5 42H43.5C44.3284 42 45 42.6716 45 43.5C45 44.3284 44.3284 45 43.5 45H4.5C3.67157 45 3 44.3284 3 43.5C3 42.6716 3.67157 42 4.5 42Z" fill="#2341DF" fill-opacity="0.3"/>
+<g id="particles">
+<path id="Vector" d="M43.8411 12.9205C43.8411 14.534 42.534 15.841 40.9205 15.841C39.3071 15.841 38 14.534 38 12.9205C38 11.3071 39.3071 10 40.9205 10C42.534 10 43.8411 11.3071 43.8411 12.9205Z" fill="#2341DF" fill-opacity="0.08"/>
+<path id="Vector_2" d="M10 17.5C10 18.3287 9.32867 19 8.5 19C7.67133 19 7 18.3287 7 17.5C7 16.6713 7.67133 16 8.5 16C9.32867 16 10 16.6713 10 17.5Z" fill="#2341DF" fill-opacity="0.08"/>
+<path id="Vector_3" d="M11.2386 3.76142C11.2386 3.33503 11.5736 3 12 3C12.4264 3 12.7614 3.33503 12.7614 3.76142V5.23858H14.2386C14.665 5.23858 15 5.5736 15 6C15 6.4264 14.665 6.76142 14.2386 6.76142H12.7614V8.23858C12.7614 8.66497 12.4264 9 12 9C11.5736 9 11.2386 8.66497 11.2386 8.23858V6.76142H9.76142C9.33503 6.76142 9 6.4264 9 6C9 5.5736 9.33503 5.23858 9.76142 5.23858H11.2386V3.76142Z" fill="#2341DF" fill-opacity="0.08"/>
+</g>
+<g id="building">
+<path id="Vector_4" opacity="0.87" d="M41.5859 39.9547V27.7162" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Group">
+<path id="Vector_5" d="M32.3583 13C33.1576 13 33.9238 13.319 34.487 13.8861L43.3073 22.7683C43.9338 23.3992 43.4869 24.4729 42.5977 24.4729H26.7859L15.3929 13H32.3583Z" fill="#2341DF" fill-opacity="0.15"/>
+<path id="Vector_6" opacity="0.87" d="M15.7376 13.6265L24.1621 21.8337" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" opacity="0.87" d="M4 24.4729L14.2197 14.1815C14.9706 13.4253 15.9923 13 17.058 13H24.5H28.0535M9.10905 40V24.4729H42.5977C43.4869 24.4729 43.9338 23.3992 43.3073 22.7683L34.487 13.8861C33.9238 13.319 33.1576 13 32.3583 13H32" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M22.9222 24.473H25.5361V39.8887H22.9222V24.473Z" fill="#2341DF" fill-opacity="0.15"/>
+<path id="Vector_9" d="M14.5707 24.473H17.1846V39.8887H14.5707V24.473Z" fill="#2341DF" fill-opacity="0.15"/>
+<path id="Vector_10" d="M6.21845 39.8995H8.83238L8.90527 24.473H6.29135L6.21845 39.8995Z" fill="#2341DF" fill-opacity="0.15"/>
+</g>
+<path id="Vector_11" opacity="0.87" d="M22.6689 24.8146V40" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" opacity="0.87" d="M25.6689 39.9999V26.7551" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" opacity="0.87" d="M14.1689 24.8146V40" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" opacity="0.87" d="M17.1689 40V24.8146" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" opacity="0.87" d="M6.33496 24.7162V39.9016" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="flag">
+<path id="Vector_16" opacity="0.87" d="M30 16V11" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" d="M29 8.5C29 8.77614 29.2239 9 29.5 9H31.882C31.9596 9 32.0361 9.01807 32.1056 9.05279L33.8944 9.94721C33.9639 9.98193 34.0404 10 34.118 10H37.5C37.7761 10 38 9.77614 38 9.5V5.5C38 5.22386 37.7761 5 37.5 5H34.118C34.0404 5 33.9639 4.98193 33.8944 4.94721L32.1056 4.05279C32.0361 4.01807 31.9596 4 31.882 4H29.5C29.2239 4 29 4.22386 29 4.5V8.5Z" fill="#2341DF" fill-opacity="0.8"/>
+</g>
+</g>
+</g>
+</svg>

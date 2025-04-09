@@ -1,0 +1,10 @@
+@import url(./settings.css);
+@import url(./style/seller/header.css);
+@import url(./style/seller/section.css);
+@import url(./style/seller/footer.css);
+@import url(./2XL/2XLseller.css) only screen and (min-width:1400px);
+@import url(./XL/XLseller.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(./Lg/Lgseller.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(./Md/Mdseller.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(./Sm/Smseller.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(./Xs/Xsseller.css) only screen and (max-width:576px);

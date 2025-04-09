@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Iran;
+    src: url(../fonts/IRANSansXFaNum-Regular.eot);
+    src: url(../fonts/IRANSansXFaNum-Regular.ttf);
+    src: url(../fonts/IRANSansXFaNum-Regular.woff);
+    src: url(../fonts/IRANSansXFaNum-Regular.woff2);
+}
+
+*{
+    font-family: Iran;
+}
+
+body{
+    overflow-x: hidden;
+}

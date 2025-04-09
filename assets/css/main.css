@@ -1,0 +1,11 @@
+@import url(./settings.css);
+@import url(./style/index/header.css);
+@import url(./style/index/DTOI.CSS);
+@import url(./style/index/section.css);
+@import url(./style/index/footer.css);
+@import url(./2XL/2XL.css) only screen and (min-width:1400px);
+@import url(./XL/XL.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(./Lg/Lg.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(./Md/Md.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(./Sm/Sm.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(./Xs/Xs.css) only screen and (max-width:576px);

@@ -1,0 +1,447 @@
+.footer-menu{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1000001;
+    box-shadow: 0 -4px 16px 0 rgba(4, 10, 31, .04);
+}
+.footer-menu .item{
+    width: 80px;
+    height: 55px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 6px 0;
+}
+.footer-menu .item .svg{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.footer-menu .item span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(4, 10, 31, .87);
+}
+
+
+
+footer{
+    width: 100%;
+    height: 1009px;
+    position: relative;
+    background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: block;
+    margin-top: 250px;
+    right: 1%;
+    overflow: hidden;
+}
+
+footer .first-section{
+    width: 97%;
+    height: 88px;
+    margin: 0 auto;
+    padding: 0 16px;
+    padding-top: 32px;
+    display: block;
+}
+
+footer .first-section div{
+    width: 100%;
+    height: 56px;
+    padding: 0 32px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(4, 10, 31, .87);
+    align-items: center;
+}
+
+footer .first-section div .right{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+}
+
+footer .first-section div .right .photo{
+    position: relative;
+    width: 72px;
+    height: 72px;
+    display: block;
+    background-color: unset;
+    margin-left: 40px;
+}
+
+footer .first-section div .right .photo img{
+    position: relative;
+    width: 72px;
+    height: 72px;
+    display: block;
+    background-color: unset;
+}
+
+footer .first-section div .right h6{
+    width: 107px;
+    height: 63px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.68;
+    color: rgb(225, 243, 255);
+    margin-right: 12px;
+    
+}
+footer .first-section div .LEFT{
+    width: 122px;
+    height: 39px;
+    background-color: unset;
+    display: block;
+}
+footer .first-section div .LEFT button{
+    width: 122px;
+    height: 39px;
+    padding: 8px 45px;
+    border-radius: 8px;
+    border: unset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 143, 255);
+    position: relative;
+    left: 20%;
+}
+footer .first-section div .LEFT button span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+footer .first-section div .left{
+    display: none;
+    align-items: center;
+    justify-content: left;
+    background-color: unset;
+    margin-left: 0;
+}
+
+footer .first-section div .left a{
+    padding-top: 4px;
+    margin-right: 16px; 
+}
+
+footer .first-section div .left a img{
+    width: 168px;
+    height: 40px;
+    display: inline-block;
+}
+
+footer .first-section div .left button{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-right: 16px;
+    background: unset;
+    border: unset;
+}
+footer .first-section div .left button:hover{
+    background-color: rgba(62, 64, 70, 0.87);
+}
+
+footer .first-section div .left button span{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer .first-section div .left button span div{
+    width: 14px;
+    height: 14px;
+    display: inline-flex;
+    background-color: unset;
+    color: #fff;
+}
+
+footer .second-section{
+    width: 100%;
+    height: 825px;
+    margin: 0 auto;
+    display: block;
+    padding: 60px 16px 24px;
+}
+
+footer .second-section div{
+    width: 100%;
+    height: 765px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    margin-right: 0;
+}
+
+footer .second-section div .Right{
+    flex-basis: 100%;
+    height: 233px;
+    flex-grow: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+    order: 2;
+    margin-top: 70px;
+}
+
+footer .second-section div .Right .text{
+    width: 100%;
+    height: 193px;
+    margin: 0 auto;
+    display: block;
+    margin: 0;
+}
+
+footer .second-section div .Right .text .topic{
+    width: 100%;
+    height: 52px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+footer .second-section div .Right .text p{
+    height: 47px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    display: block;
+    text-align: justify;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+footer .second-section div .Right .text .address{
+    width: 100%;
+    height: 65px;
+    display: block;
+    margin-top: 10px;
+}
+
+footer .second-section div .Right .text .address .location{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+
+footer .second-section div .Right .text .address .envelope{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+    top: 25px;
+}
+
+footer .second-section div .Right .text .address p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    display: block;
+    height: 24px;
+    color: rgba(4, 10, 31, 0.87);
+    margin: 0;
+}
+
+footer .second-section div .middle{
+    flex-basis: 100%;
+    height: 194px;
+    flex-grow: 0;
+    padding-top: 24px;
+    padding-right: 0;
+    display: block;
+}
+
+footer .second-section div .middle div{
+    display: block;
+    margin: 0 auto;
+}
+
+footer .second-section div .middle div .column{
+    display: block;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+}
+
+footer .second-section div .middle div .column button{
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 4px 0;
+    color: #2341DF;
+    border: unset;
+    background-color: unset;
+    margin-right: 10px;
+}
+footer .second-section div .middle div .column a:hover{
+    color: #23B4FF;
+}
+
+footer .second-section div .middle div hr{
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+footer .second-section div .middle div .column .arrow{
+    width: 24px;
+    height: 24px;
+    direction: ltr;
+    margin: 0;
+    position: relative;
+    right: 90%;
+    bottom: 50%;
+}
+footer .second-section div .middle div .column:hover a{
+    display: block;
+    z-index: 10;
+}
+
+
+footer .second-section div .middle div hr{
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    display: block;
+}
+footer .second-section div .middle div .column .arrow{
+    width: 24px;
+    height: 24px;
+    direction: ltr;
+    margin: 0;
+    position: relative;
+    right: 90%;
+    bottom: 50%;
+    display: block;
+}
+
+footer .second-section div .middle div .column a{
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    margin-bottom: 10px;
+    position: relative;
+    display: none;
+}
+
+footer .second-section div .Left{
+    height: 330px;
+    flex-basis: 100%;
+    flex-grow: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+    order: 3;
+}
+
+footer .second-section div .Left div{
+    width: 380px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
+
+footer .second-section div .Left div .icons{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer .second-section div .Left div .icons .icon{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -8px;
+    margin-right: -8px;
+    position: relative;
+    bottom: 30%;
+    right: 10%;
+}
+
+footer .second-section div .Left div .icons .icon .photo{
+    height: 88px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+footer .second-section div .Left div .icons .icon .photo img{
+    width: 64px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+footer .third-section{
+    width: 100%;
+    height: 95px;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px 8%;
+    background: linear-gradient(90.06deg, #0052d4 .05%, #4364f7 54.75%, #6fb1fc 109.45%);
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 56px;
+}
+
+footer .third-section p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+}
+
+footer .third-section .linkedin{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 50%;
+}
+
+footer .third-section .linkedin svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+

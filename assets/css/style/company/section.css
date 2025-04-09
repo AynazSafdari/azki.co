@@ -1,0 +1,1148 @@
+*{
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    display: block;
+}
+
+main section{
+    width: 100%;
+    display: block;
+}
+
+section .about{
+    width: 100%;
+    height: 520px;
+    padding: 40px 16px 0;
+    background: radial-gradient(79.5% 79.5% at 50% 0, hsla(0, 0%, 100%, 0) 0, #fff 100%), url(./assets/images/insurance-companies-bg.webp) -100px, #d3d3d3 -6.896px -135.046px / 126.451% 262.538% no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+section .about div{
+    width: 56.4%;
+    margin: 0 auto;
+    margin-top: -50px;
+    display: block;
+}
+
+section .about div .inside{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 150px;
+    align-items: center;
+    padding: 0;
+}
+
+section .about div .inside .right{
+    flex-basis: 58%;
+    flex-grow: 0;
+    padding-right: 16px;
+    padding-top: 16px;
+    display: block;
+}
+
+section .about div .inside .right h1{
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.7;
+    display: block;
+    color: #040A1F;
+}
+
+section .about div .inside .right nav{
+    width: 100%;
+    height: 51px;
+    padding: 15px 0;
+    display: block;
+}
+
+section .about div .inside .right nav ol{
+    width: 100%;
+    display: inline;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+section .about div .inside .right nav ol li{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: hsla(0, 0%, 46%, .5);
+    display: inline;
+}
+
+section .about div .inside .right nav ol li p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    color: rgba(4, 10, 31, 0.87);
+    display: inline;
+}
+
+section .about div .inside .right p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+section .about div .inside .left{
+    flex-basis: 41%;
+    flex-grow: 0;
+    padding-right: 16px;
+    padding-top: 16px;
+    display: block;
+    margin-top: 50px;
+}
+
+section .about div .inside .left div{
+    width: 416px;
+    height: 416px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section .about div .inside .left div .photo{
+    width: 190px;
+    height: 208px;
+    object-fit: cover;
+    display: block;
+}
+
+section .about div .inside .left div .photo img{
+    width: 190px;
+    height: 208px;
+    object-fit: cover;
+    display: block;
+}
+
+section .about div .inside .left div .orbit1{
+    width: 251px;
+    height: 251px;
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 200px;
+    display: block;
+}
+
+section .about div .inside .left div .orbit1 .planet1{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation-name: solarsystem-orbit1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+section .about div .inside .left div .orbit1 .planet1::after{
+    background-image: url(/assets/images/dana.png);
+    background-size: cover;
+    transform: translate(50%, -50%);
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes solarsystem-orbit1 {
+    0%{
+        transform: rotate(0deg) translate(-120px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(-120px) rotate(-1turn);
+    }
+    
+}
+
+section .about div .inside .left div .orbit1 .planet2{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    animation-name: Solarsystem-orbit1;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section .about div .inside .left div .orbit1 .planet2::after{
+    background: url(/assets/images/pasargad\ insurance.webp);
+    background-size: cover;
+    transform: translate(50%, -50%);
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes Solarsystem-orbit1 {
+    0%{
+        transform: rotate(0deg) translate(120px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(120px) rotate(-1turn);
+    }
+    
+}
+
+section .about div .inside .left div .orbit2{
+    width: 330px;
+    height: 330px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 200px;
+    display: block;
+}
+
+ section .about div .inside .left div .orbit2 .planet1{
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    margin: 137px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    animation-name: orbit2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section .about div .inside .left div .orbit2 .planet1::after{
+    width: 33px;
+    height: 33px;
+    background: url(/assets/images/asiya.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(-90deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes orbit2 {
+    0%{
+        transform: rotate(0deg) translate(-165px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(-165px) rotate(-1turn);
+    }
+    
+}
+
+section .about div .inside .left div .orbit2 .planet2{
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin: 137px;
+    animation-name: ORBIT2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section .about div .inside .left div .orbit2 .planet2::after{
+    width: 33px;
+    height: 33px;
+    background: url(/assets/images/iran.png);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(-90deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes ORBIT2 {
+    0%{
+        transform: rotate(0deg) translate(165px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(165px) rotate(-1turn);
+    }
+    
+} 
+
+section .about div .inside .left div .orbit3{
+    transform: rotate(-120deg);
+    width: 416px;
+    height: 416px;
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 200px;
+}
+
+section .about div .inside .left div .orbit3 .planet1{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    margin: 188px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    animation-name: orbit3;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section .about div .inside .left div .orbit3 .planet1::after{
+    width: 24px;
+    height: 24px;
+    background: url(/assets/images/alborz\ insurance.webp);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(120deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes orbit3 {
+    0%{
+        transform: rotate(0deg) translate(-208px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(-208px) rotate(-1turn);
+    }
+    
+}
+
+section .about div .inside .left div .orbit3 .planet2{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    margin: 188px;
+    animation-name: ORBIT3;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+section .about div .inside .left div .orbit3 .planet2::after{
+    width: 24px;
+    height: 24px;
+    background: url(/assets/images/taavon\ insurance.webp);
+    background-size: cover;
+    transform: translate(50%, -50%) rotate(120deg);
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50%;
+}
+
+@keyframes ORBIT3 {
+    0%{
+        transform: rotate(0deg) translate(208px) rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1turn) translate(208px) rotate(-1turn);
+    }
+    
+} 
+
+/* insurance */
+section .insurance{
+    width: 66.7%;
+    height: 335px;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: block;
+    margin-top: 80px;
+}
+
+section .insurance .box{
+    width: 83.8%;
+    height: 335px;
+    padding: 48px 80px;
+    margin: auto;
+    border-radius: 30px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 97px 39px -70px rgba(4, 10, 31, .1);
+    background-color: #fff;
+    display: block;
+}
+
+section .insurance .box div{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -8px;
+    margin-right: -8px;
+    align-items: center;
+}
+
+section .insurance .box div .right{
+    flex-basis: 41%;
+    flex-grow: 0;
+    padding-top: 8px;
+    padding-right: 8px;
+    display: block;
+}
+
+section .insurance .box div .right .photo{
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section .insurance .box div .right .photo img{
+    width: 320px;
+    height: 180px;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+section .insurance .box div .left{
+    flex-basis: 58%;
+    flex-grow: 0;
+    padding-top: 8px;
+    padding-right: 8px;
+    display: block;
+}
+
+section .insurance .box div .left h2{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+section .insurance .box div .left p{
+    margin-top: 8px;
+    display: block;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* popular companies */
+section .popular{
+    width: 100%;
+    height: 1622px;
+    position: absolute;
+    min-height: 928px;
+    z-index: 0;
+    background: radial-gradient(46.9% 46.1% at 100% 51.56%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 91.4%), radial-gradient(31.53% 36.84% at 51.11% 36.15%, rgba(255, 206, 67, .22) 0, rgba(255, 206, 67, 0) 100%), radial-gradient(39.83% 34.56% at 0 55.33%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+    display: block !important;
+}
+
+section .popular div{
+    width: 56%;
+    height: 1622px;
+    padding: 0 16px;
+    margin: 104px auto;
+    display: block;
+}
+
+section .popular div h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .popular div .top{
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto;
+    padding: 32px;
+}
+
+section .popular div .top .right{
+    height: 480px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+}
+
+section .popular div .top .right .photo{
+    width: 416px;
+    height: 416px;
+    display: flex;
+    justify-content: center;
+    margin: -100px 14px;
+    padding: 0;
+}
+
+section .popular div .top .left{
+    height: 480px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+}
+
+section .popular div .top .left h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    color: rgb(4, 10, 31);
+    display: block;
+}
+
+section .popular div .top .left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgba(4, 10, 31, 0.6);
+    display: block;
+}
+
+section .popular div .bottom{
+    width: 100%;
+    height: 1054px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    margin-right: -16px;
+}
+
+section .popular div .bottom .card{
+    flex-basis: 50%;
+    flex-grow: 0;
+    height: 263px;
+    padding-top: 16px;
+    padding-right: 16px;
+    margin: 0;
+    display: block;
+    border: unset;
+    background-color: unset;
+}
+
+section .popular div .bottom .card .inside{
+    width: 100%;
+    height: 100%;
+    padding: 32px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    background-color: #fff;
+    margin: 0;
+}
+
+section .popular div .bottom .card .inside .photo{
+    width: 31.6%;
+    height: 70%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+}
+
+section .popular div .bottom .card .inside .photo img{
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+}
+
+section .popular div .bottom .card .inside .text{
+    width: 63%;
+    height: 100%;
+    margin: 0;
+    margin-right: 32px;
+    display: block;
+    padding: 0;
+}
+
+section .popular div .bottom .card .inside .text h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgb(4, 10, 31);
+    display: block;
+}
+
+section .popular div .bottom .card .inside .text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: rgba(4, 10, 31, 0.6);
+    display: block;
+    padding: 0;
+}
+
+/* all companies */
+section .allcompanies{
+    width: 100%;
+    height: 535px;
+    display: block !important;
+    margin-top: 1800px;
+}
+
+section .allcompanies div{
+    width: 62.2%;
+    height: 535px;
+    margin: 104px auto 96px;
+}
+
+section .allcompanies div h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .allcompanies div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.6);
+    display: block;
+}
+
+section .allcompanies div .brands{
+    width: 100%;
+    height: 479px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -16px;
+    justify-content: center;
+    margin: 0;
+}
+
+section .allcompanies div .brands a{
+    width: 88px;
+    height: 119px;
+    margin: 40px 16px 0;
+    text-decoration: none;
+}
+
+section .allcompanies div .brands a .photo{
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    margin: 0;
+}
+
+section .allcompanies div .brands a .photo div{
+    width: 56px;
+    height: 56px;
+}
+
+section .allcompanies div .brands a .photo div img{
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+
+section .allcompanies div .brands a span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: center;
+    display: block;
+    color: rgba(4, 10, 31, 0.6);
+    margin: 0px;
+    margin-top: 8px;
+}
+
+
+
+
+/* comments */
+section .comments{
+    width: 100%;
+    display: block;
+    margin-top: 120px;
+    padding-bottom: 105px;
+    background: radial-gradient(22.05% 52.22% at 83.4% 50%, rgba(0, 251, 40, .08) 0, rgba(0, 251, 40, 0) 100%), radial-gradient(21.11% 50% at 50% 50%, rgba(0, 143, 255, .16) 0, rgba(0, 143, 255, 0) 100%), radial-gradient(21.11% 50% at 21.11% 50%, rgba(0, 251, 40, .08) 0, rgba(0, 251, 40, 0) 100%);
+}
+
+section .comments h2{
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.7;
+    display: block;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+section .comments p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.68;
+    display: block;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.6);
+}
+
+section .comments .boxes{
+    width: 67.2%;
+    height: 336px;
+    margin: 0 auto;
+    display: block;
+}
+
+section .comments .boxes div{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 32px;
+}
+
+section .comments .boxes div .box{
+    flex-basis: 33%;
+    height: 336px;
+    flex-grow: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+section .comments .boxes .mySwiper{
+    width: 100%;
+    height: 550px;
+    display: none;
+    flex-direction: column;
+}
+section .comments .boxes .mySwiper .swiper-wrapper{
+    width: 100%;
+    height: 416px;
+    display: flex;
+    flex-direction: row nowrap;
+}
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+}
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box{
+    flex-basis: 100%;
+    height: 416px;
+    display: flex;
+    margin: 0;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside{
+    height: 296px;
+    padding: 32px 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    background-color: #fff;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline{
+    width: 50%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .photo{
+    width: 104px;
+    height: 104px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .text{
+    width: 200px;
+    height: 120px;
+    display: block;
+    margin: 0;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .text p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: block;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+    text-align: right;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .text .star{
+    width: 120px;
+    height: 25px;
+    display: inline-block;
+    direction: ltr;
+    margin: 0;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .text .btn{
+    width: 100%;
+    height: 24px;
+    border-radius: 16px;
+    padding: 0 4px;
+    display: inline-flex;
+    margin: 0;
+    background-color: rgba(0, 143, 255, 0.1);
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .firstline .text .btn span{
+    color: rgb(0, 143, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: center;
+    margin-right: 30px;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .secondline{
+    width: 50%;
+    height: 120px;
+    margin: 0;
+    display: block;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .secondline div{
+    display: block;
+}
+
+section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box .inside .secondline div p{
+    margin: 0px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: rgb(97, 97, 97);
+    text-align: right;
+}
+section .comments .boxes .mySwiper  .swiper-button-next{
+    display: flex;
+    color: #424242;
+    box-shadow: rgba(4, 10, 31, 0.08) 0px 2px 8px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 310px;
+    margin-top: 150px;
+}
+section .comments .boxes .mySwiper .swiper-button-prev{
+    display: flex;
+    color: #424242;
+    box-shadow: rgba(4, 10, 31, 0.08) 0px 2px 8px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 310px;
+    margin-top: 150px;
+}
+
+section .comments .boxes div .box .inside{
+    height: 296px;
+    padding: 32px 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    background-color: #fff;
+}
+
+section .comments .boxes div .box .inside .firstline{
+    width: 85%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+section .comments .boxes div .box .inside .firstline .photo{
+    width: 104px;
+    height: 104px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+section .comments .boxes div .box .inside .firstline .text{
+    width: 120px;
+    display: block;
+    margin: 0;
+}
+
+section .comments .boxes div .box .inside .firstline .text p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: block;
+    color: rgb(97, 97, 97);
+    margin: 0px;
+}
+
+section .comments .boxes div .box .inside .firstline .text .star{
+    width: 120px;
+    display: inline-block;
+    direction: ltr;
+    margin: 0;
+}
+
+section .comments .boxes div .box .inside .firstline .text .btn{
+    width: 100%;
+    height: 24px;
+    border-radius: 16px;
+    padding: 0 4px;
+    display: inline-flex;
+    margin: 0;
+    background-color: rgba(0, 143, 255, 0.1);
+}
+
+section .comments .boxes div .box .inside .firstline .text .btn span{
+    color: rgb(0, 143, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    text-align: center;
+    margin-right: 30px;
+}
+
+section .comments .boxes div .box .inside .secondline{
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    display: block;
+}
+
+section .comments .boxes div .box .inside .secondline div{
+    display: block;
+}
+
+section .comments .boxes div .box .inside .secondline div p{
+    margin: 0px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: rgb(97, 97, 97);
+    text-align: right;
+}
+
+/* questions */
+section .questions{
+    width: 100%;
+    height: 573px;
+    display: block;
+    margin-top: 144px;
+    margin: 0 auto;
+    background: radial-gradient(10.47% 20.55% at 75.17% 21.89%, rgba(255, 187, 0, .1) 0, rgba(255, 187, 0, 0) 100%), radial-gradient(41.26% 25.9% at 96.67% 50%, rgba(0, 143, 255, .08) 0, rgba(35, 65, 223, 0) 100%), radial-gradient(38.55% 41.03% at -6.28% 58.48%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+}
+
+section .questions div{
+    width: 67.2%;
+    height: 573px;
+    margin: 0 auto;
+    display: block;
+}
+
+section .questions div h2{
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.74;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .questions div .body{
+    width: 100%;
+    height: 743px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+
+section .questions div .body .right{
+    width: 37%;
+    margin-left: 100px;
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+section .questions div .body .left{
+    width: 55%;
+    display: block;
+    padding: 0;
+}
+
+section .questions div .body .left [id=accordionFlushExample]{
+    margin: 0;
+}
+
+section .questions div .body .left .accordion-item{
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    margin-bottom: 26px;
+    display: block;
+    border: unset;
+    outline: unset;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    overflow-anchor: none;
+    background: rgb(255, 255, 255);
+    transition: none !important;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.08) 0px 8px 10px !important;
+    border-radius: 16px !important;
+}
+
+section .questions div .body .left .accordion-item button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    display: flex;
+    min-height: unset !important;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0px;
+    margin-right: 20px;
+    border: unset;
+    outline: none;
+}
+
+.accordion-button::after{
+    display: flex;
+    color: rgba(0, 0, 0, 0.54);
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px;
+}
+
+.accordion-body{
+    width: 100%;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse{
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse .accordion-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.6);
+    margin-right: 20px;
+}

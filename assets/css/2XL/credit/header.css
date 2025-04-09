@@ -1,0 +1,392 @@
+header{
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 16px 10vw;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 16px 12px -10px rgba(60, 64, 67, .1);
+    display: flex;
+    align-items: center;
+    z-index: 1000001;
+}
+
+header .menu{
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu .RIGHT{
+    position: relative;
+    left: 5%;
+    display: none;
+}
+header .menu .CENTER{
+    position: relative;
+    display: none;
+}
+header .menu .LEFT{
+    position: relative;
+    right: 5%;
+    display: none;
+}
+
+header .menu .rightside{
+    width: 51.3%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+header .menu .rightside .logo{
+    width: 8%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .menu .rightside .logo a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+header .menu .rightside .logo a div{
+    width: 54px;
+    height: 24px;
+}
+
+header .menu .rightside nav{
+    width: 86.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+header .menu .rightside nav .m1:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m1{
+    width: 62px;
+    height: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+header .menu .rightside nav .m1 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m1 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m1 button .text a{
+    width: 62px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m1 button .svg{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: -8px;
+}
+
+header .menu .rightside nav .m2:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m2{
+    width: 101px;
+    height: 32px;
+    margin-left: 32px;
+    margin-right: -10px;
+    display: block;
+}
+
+header .menu .rightside nav .m2 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m2 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m2 button .text a{
+    width: 101px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m2 button .svg{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: -5px;
+}
+
+header .menu .rightside nav .m3:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m3{
+    width: 53px;
+    height: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+header .menu .rightside nav .m3 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m3 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m3 button .text a{
+    width: 53px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m4:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m4{
+    width: 73px;
+    height: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+header .menu .rightside nav .m4 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m4 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m4 button .text a{
+    width: 73px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m5:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m5{
+    width: 86px;
+    height: 32px;
+    margin-left: 10px;
+    display: block;
+}
+
+header .menu .rightside nav .m5 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m5 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m5 button .text a{
+    width: 86px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m6:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m6{
+    width: 85px;
+    height: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+header .menu .rightside nav .m6 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m6 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m6 button .text a{
+    width: 85px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .rightside nav .m7:hover button .text a{
+    color: #23B4FF;
+}
+
+header .menu .rightside nav .m7{
+    width: 25px;
+    height: 32px;
+    margin-left: 32px;
+    display: block;
+}
+
+header .menu .rightside nav .m7 button{
+    padding: 4px 0;
+    display: flex;
+    color: rgba(4, 10, 31, 0.87);
+    background-color: unset;
+    justify-content: space-between;
+    border: none;
+}
+
+header .menu .rightside nav .m7 button .text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+header .menu .rightside nav .m7 button .text a{
+    width: 25px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu .leftside{
+    width: 14.3%;
+    height: 32px;
+    display: flex;
+}
+
+header .menu .leftside .support{
+    width: 37%;
+    margin-left: 24px;
+    display: flex;
+    margin-top: 5px;
+}
+
+header .leftside .support a{
+    display: flex;
+    text-decoration: none;
+}
+
+header .leftside .support a div{
+    width: 24px;
+    height: 24px;
+}
+
+header .leftside .support a span{
+    width: 49px;
+    height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #008FFF;
+}
+
+header .leftside button{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: #008FFF;
+    background-color: #fff;
+    border: 1px solid rgba(0, 143, 255, 0.5);
+}
+header .leftside button:hover{
+    background-color: rgb(224, 242, 248);
+}
+
+header .leftside button span{
+    width: 88px;
+    height: 23px;
+    color: #008FFF;
+    text-decoration: none;
+}

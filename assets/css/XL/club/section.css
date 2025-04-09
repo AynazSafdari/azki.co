@@ -1,0 +1,524 @@
+main{
+    width: 100%;
+    display: block;
+}
+
+main div{
+    width: 100%;
+    padding-top: 64px;
+    position: relative;
+    background-color: #fff;
+    display: block;
+}
+
+main  div section{
+    width: 100%;
+    display: block;
+}
+
+/* section .leftbg{
+    width: 33%;
+    position: relative;
+    right: 66%;
+    z-index: -1;
+}
+
+section .rightbg{
+    position: relative;
+} */
+
+section .azkiclub{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 64px 16px 32px 16px ;
+}
+
+section .azkiclub h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .azkiclub p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.6);
+    display: block;
+}
+
+section .azkiclub .boxes{
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 40px;
+    display: block;
+}
+
+section .azkiclub .boxes div{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -16px;
+    margin-right: -16px;
+    justify-content: center;
+}
+
+section .azkiclub .boxes div .box{
+    flex-basis: 33%;
+    flex-grow: 0;
+    padding-right: 16px;
+    padding-top: 16px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+section .azkiclub .boxes div .box a{
+    width: 100%;
+    text-decoration: none;
+}
+
+section .azkiclub .boxes div .box a div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 16px 24px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(4, 10, 31, .08);
+    background-color: #fff;
+}
+
+section .azkiclub .boxes div .box a div .photo{
+    width: 56px;
+    height: 56px;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+
+section .azkiclub .boxes div .box a div h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px;
+}
+
+section .azkiclub .boxes div .box a div p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    text-align: center;
+    display: block;
+    color: rgba(4, 10, 31, 0.38);
+    margin-top: 4px;
+}
+
+section .azkiclub .btn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+section .azkiclub .btn a{
+    width: 167px;
+    height: 40px;
+    margin-top: -80px;
+}
+
+section .azkiclub .btn a button{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(0, 143, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    padding: 7px 21px;
+    border-radius: 32px;
+}
+section .azkiclub .btn a button:hover{
+    background-color: rgb(224, 242, 248);
+}
+
+section .azkiclub .btn a button .clock{
+    width: 24px;
+    height: 24px !important;
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+}
+
+section .azkiclub .btn a button span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: rgb(0, 143, 255);
+    position: relative;
+    bottom: 70px;
+}
+
+/* azki club for you */
+section .foryou{
+    width: 97%;
+    height: 305px;
+    margin: 298px auto 120px;
+    position: relative;
+    display: block;
+}
+
+section .foryou .photo{
+    width: 22%;
+    height: 184px;
+    position: absolute;
+    right: 50%;
+    top: -154px;
+    transform: translateX(50%);
+    display: block;
+    padding: 0;
+}
+
+section .foryou .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .foryou .box{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 64px 80px;
+    background: #fff;
+    box-shadow: 0 97px 39px -70px rgba(4, 10, 31, .1);
+    border-radius: 50px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 10%;
+}
+
+section .foryou .box .right{
+    flex-basis: 25%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .foryou .box .right div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+section .foryou .box .right div h3{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.27;
+    color: rgb(4, 10, 31);
+    display: block;
+}
+
+section .foryou .box .left{
+    height: 175px;
+    flex-basis: 66%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .foryou .box .left div{
+    width: 100%;
+    height: 239px;
+    margin-right: -20px;
+    margin-top: -20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0;
+}
+
+section .foryou .box .left div .text{
+    height: 119px;
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-right: 64px;
+    padding-top: 64px;
+    display: block;
+}
+
+section .foryou .box .left div .text h2{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .foryou .box .left div .text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: rgba(4, 10, 31, 0.87);
+    margin-top: 8px;
+    display: block;
+}
+
+/* azki club options */
+section .options{
+    width: 80%;
+    height: 517px;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+section .options h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+section .options div{
+    width: 100%;
+    height: 477px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+section .options div .box{
+    height: 238px;
+    flex-basis: 33%;
+    flex-grow: 0;
+    display: block;
+    padding: 0;
+}
+
+section .options div .box div{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+}
+
+section .options div .box div .photo{
+    width: 100%;
+    height: 95px;
+    display: block;
+    margin-right: 100px;
+}
+
+section .options div .box div .text{
+    width: 100%;
+    height: 79px;
+    margin-top: 16px;
+    text-align: center;
+    display: block;
+}
+
+section .options div .box div .text h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+section .options div .box div .text p{
+    width: 85%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    display: block;
+    color: rgba(4, 10, 31, 0.6);
+    margin-top: 8px;
+}
+
+/* companies */
+section .company{
+    width: 100%;
+    height: 222px;
+    padding: 0 56px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+section .company h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .company div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 0;
+}
+
+section .company div .icon{
+    width: 136px;
+    height: 79px;
+    padding: 0 24px;
+    display: block;
+    margin: 0;
+}
+
+/* questions */
+section .questions{
+    width: 75%;
+    height: 814px;
+    display: block;
+    margin-top: 144px;
+    margin: 0 auto;
+}
+
+section .questions div{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+section .questions div h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .questions div .body{
+    width: 100%;
+    height: 743px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    margin-bottom: 150px;
+    padding: 0;
+}
+
+section .questions div .body .right{
+    width: 37%;
+    margin-left: 100px;
+    display: block;
+    padding: 0;
+}
+
+section .questions div .body .left{
+    width: 55%;
+    display: block;
+    padding: 0;
+}
+
+section .questions div .body .left [id=accordionFlushExample]{
+    margin: 0;
+}
+
+section .questions div .body .left .accordion.accordion-flush{
+    width: 100%;
+    height: 743px;
+}
+
+section .questions div .body .left .accordion-item{
+    width: 120%;
+    height: 56px;
+    margin: 0;
+    margin-bottom: 26px;
+    display: block;
+    border: unset;
+    outline: unset;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    overflow-anchor: none;
+    background: rgb(255, 255, 255);
+    transition: none !important;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.08) 0px 8px 10px !important;
+    border-radius: 16px !important;
+    padding: 0;
+}
+
+section .questions div .body .left .accordion-item button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    display: flex;
+    min-height: unset !important;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0px;
+    margin-right: 20px;
+    border: unset;
+    outline: none;
+}
+
+.accordion-button::after{
+    display: flex;
+    color: rgba(0, 0, 0, 0.54);
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px;
+}
+
+.accordion-body{
+    width: 100%;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse{
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse .accordion-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.6);
+    margin-right: 20px;
+}

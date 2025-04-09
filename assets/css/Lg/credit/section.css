@@ -1,0 +1,392 @@
+main{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+main section{
+    width: 100%;
+    display: block;
+}
+
+main section .azkicredit{
+    width: 100%;
+    height: 1407px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 64px;
+    display: block;
+}
+
+main section .azkicredit .firstsection{
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 80px;
+}
+
+main section .azkicredit .firstsection .right{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+    padding-right: 20px;
+}
+
+main section .azkicredit .firstsection .right .inside{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+main section .azkicredit .firstsection .right .inside div{
+    width: 100%;
+    padding: 0 8px;
+    margin: auto;
+    display: block;
+}
+
+main section .azkicredit .firstsection .right .inside div h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.27;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+main section .azkicredit .firstsection .right .inside div h2{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+    margin: 16px 0;
+}
+
+main section .azkicredit .firstsection .right .inside div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+   display: block;
+    color: rgba(4, 10, 31, 0.6);
+}
+
+main section .azkicredit .firstsection .right .inside div button{
+    width: 28%;
+    height: 40px;
+    background-color: #008FFF;
+    color: #fff;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px 22px;
+    border: unset;
+}
+
+main section .azkicredit .firstsection .right .inside div button span{
+    font-size: 14px;
+    color: #fff;
+}
+
+main section .azkicredit .firstsection .left{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+}
+
+main section .azkicredit .firstsection .left .photo{
+    position: relative;
+    width: 400px;
+    height: 288px;
+    margin: 0 auto;
+}
+
+main section .azkicredit .firstsection .left .photo img{
+    width: 400px;
+    height: 288px;
+    object-fit: cover;
+}
+
+main section .azkicredit .secondsection{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 124px;
+}
+
+main section .azkicredit .secondsection .right{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+    padding-right: 20px;
+}
+
+main section .azkicredit .secondsection .right div{
+    width: 98%;
+    padding: 0 8px;
+    margin: auto;
+    display: block;
+}
+
+main section .azkicredit .secondsection .right div h2{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.74;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+    margin-bottom: 8px;
+}
+
+main section .azkicredit .secondsection .right div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    color: rgba(4, 10, 31, 0.6);
+}
+
+main section .azkicredit .secondsection .left{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+}
+
+main section .azkicredit .secondsection .left .svg{
+    width: 436px;
+    height: 321px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+main section .azkicredit .thirdsection{
+    width: 100%;
+    height: 410px;
+    display: block;
+    padding: 64px 88px;
+    border-radius: 48px;
+    border: .938px solid #e0e0e0;
+    background: #fff;
+    box-shadow: 0 40px 22px -29px rgba(4, 10, 31, .08);
+    margin: 120px 0;
+}
+
+main section .azkicredit .thirdsection div{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+main section .azkicredit .thirdsection div .topic{
+    flex-basis: 25%;
+    flex-grow: 0;
+    display: block;
+}
+
+main section .azkicredit .thirdsection div .topic h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.27;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+main section .azkicredit .thirdsection div .text{
+    flex-basis: 75%;
+    flex-grow: 0;
+    display: block;
+}
+
+main section .azkicredit .thirdsection div .text .inside{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 54px;
+}
+
+main section .azkicredit .thirdsection div .text .inside div{
+    flex-basis: 50%;
+    flex-grow: 0;
+    display: block;
+    height: 104px;
+    margin-bottom: 80px;
+}
+
+main section .azkicredit .thirdsection div .text .inside div .in{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 56px;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+main section .azkicredit .thirdsection div .text .inside div .in .image{
+    flex-basis: 20%;
+    width: 48px !important;
+    height: 48px;
+    display: flex;
+    align-items: center !important;
+    padding: 0;
+    
+}
+
+main section .azkicredit .thirdsection div .text .inside div .in .note{
+    flex-basis: 80%;
+    display: block;
+    height: 80px;
+}
+
+main section .azkicredit .thirdsection div .text .inside div .in .note h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: right;
+    color: rgb(4, 10, 31);
+    display: block;
+}
+
+main section .azkicredit .thirdsection div .text .inside div .in .note p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+/* questions */
+section .questions{
+    width: 100%;
+    height: 1006px;
+    display: block;
+    padding-bottom: 180px;
+    padding-top: 32px;
+    margin-top: 100px;
+    background: radial-gradient(10.47% 20.55% at 75.17% 21.89%, rgba(255, 187, 0, .1) 0, rgba(255, 187, 0, 0) 100%), radial-gradient(44.95% 25.66% at 102.47% 57.32%, rgba(35, 65, 223, .08) 0, rgba(35, 65, 223, 0) 100%), radial-gradient(38.55% 41.03% at -6.28% 58.48%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+}
+
+section .questions div{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: block;
+}
+
+section .questions div h4{
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: center;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+}
+
+section .questions div .body{
+    width: 100%;
+    height: 648px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+    padding: 0;
+}
+
+section .questions div .body .right{
+    width: 37%;
+    margin-left: 100px;
+    display: block;
+    padding: 0;
+}
+
+section .questions div .body .left{
+    width: 55%;
+    display: block;
+    padding: 0;
+}
+
+section .questions div .body .left [id=accordionFlushExample]{
+    margin: 0;
+}
+
+section .questions div .body .left .accordion.accordion-flush{
+    width: 100%;
+    height: 743px;
+}
+
+section .questions div .body .left .accordion-item{
+    width: 95.5%;
+    height: 56px;
+    margin: 0;
+    margin-bottom: 26px;
+    display: block;
+    border: unset;
+    outline: unset;
+    color: rgba(0, 0, 0, 0.87);
+    position: relative;
+    overflow-anchor: none;
+    background: rgb(255, 255, 255);
+    transition: none !important;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 16px 24px, rgba(0, 0, 0, 0.08) 0px 8px 10px !important;
+    border-radius: 16px !important;
+    padding: 0;
+}
+
+section .questions div .body .left .accordion-item button{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    color: inherit;
+    display: flex;
+    min-height: unset !important;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1), background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0px;
+    margin-right: 20px;
+    border: unset;
+    outline: none;
+}
+
+.accordion-button::after{
+    display: flex;
+    color: rgba(0, 0, 0, 0.54);
+    transform: rotate(0deg);
+    transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 16px;
+}
+
+.accordion-body{
+    width: 100%;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse{
+    width: 100%;
+    margin: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse .accordion-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 39px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0%;
+    color: rgba(4, 10, 31, 0.6);
+    margin-right: 20px;
+}

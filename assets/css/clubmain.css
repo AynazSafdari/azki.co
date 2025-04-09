@@ -1,0 +1,10 @@
+@import url(./settings.css);
+@import url(../css/style/club/header.css);
+@import url(../css/style/club/section.css);
+@import url(../css/style/club/footer.css);
+@import url(./2XL/2XLclub.css) only screen and (min-width:1400px);
+@import url(./XL/XLclub.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(./Lg/Lgclub.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(./Md/Mdclub.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(./Sm/Smclub.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(./Xs/Xsclub.css) only screen and (max-width:576px);

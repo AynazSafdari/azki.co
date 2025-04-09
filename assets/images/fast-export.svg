@@ -1,0 +1,26 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Fast_export">
+<g id="Mail_Shield">
+<g id="particles">
+<path id="Vector" d="M38 6C38 7.66 39.34 9 41 9C42.66 9 44 7.66 44 6C44 4.34 42.66 3 41 3C39.34 3 38 4.34 38 6Z" fill="#2341DF" fill-opacity="0.08"/>
+<path id="Vector_2" d="M7 5.5C7 6.32758 7.67241 7 8.5 7C9.32759 7 10 6.32758 10 5.5C10 4.67241 9.32759 4 8.5 4C7.67241 4 7 4.67241 7 5.5Z" fill="#2341DF" fill-opacity="0.08"/>
+<path id="Vector_3" d="M6.125 13.6336C6.125 13.2825 5.84247 13 5.49144 13C5.14041 13 4.85788 13.2825 4.85788 13.6336V14.8664H3.63356C3.28253 14.8664 3 15.149 3 15.5C3 15.851 3.28253 16.1336 3.63356 16.1336H4.86644V17.3664C4.86644 17.7175 5.14897 18 5.5 18C5.85103 18 6.13356 17.7175 6.13356 17.3664V16.1336H7.36644C7.71747 16.1336 8 15.851 8 15.5C8 15.149 7.71747 14.8664 7.36644 14.8664H6.13356V13.6336H6.125Z" fill="#2341DF" fill-opacity="0.08"/>
+</g>
+<g id="lines">
+<path id="Vector_4" opacity="0.87" d="M45 13H40" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" opacity="0.87" d="M43.6666 15.5H42.3333" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" opacity="0.87" d="M40.6666 15.5H39.3333" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" opacity="0.87" d="M44.9258 18L40.9258 18" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="mail">
+<path id="Vector_8" d="M13.4543 16.9005L7.27246 22.6067" stroke="#BDC6F6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M28.8299 10.0125L25.2617 6L23.6367 7.48905" stroke="#BDC6F6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M34.8506 16.7985L37.4245 19.7027L38.7114 21.1548" stroke="#BDC6F6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" opacity="0.15" d="M39.7801 24.7734C39.8665 23.9229 38.915 23.3632 38.2136 23.8519L26.6314 31.9221C25.6715 32.5909 24.4103 32.6407 23.4006 32.0496L7.27273 22.6072L5.22349 42.7979C5.10389 43.9763 6.02884 44.9998 7.21326 44.9998H35.92C36.9464 44.9998 37.8061 44.2229 37.9098 43.2018L39.7801 24.7734Z" fill="#2341DF"/>
+<path id="Vector_12" opacity="0.87" d="M7.27273 22.6072L5.22349 42.7979C5.10389 43.9763 6.02884 44.9998 7.21326 44.9998H35.92C36.9464 44.9998 37.8061 44.2229 37.9098 43.2018L38.2955 39.4017M10.5545 24.6669L23.45 32.0378C24.4554 32.6124 25.7018 32.5571 26.6523 31.8957L38.2142 23.8499C38.9157 23.3617 39.8666 23.9214 39.7803 24.7717L38.8636 33.8035L38.5795 36.6026" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" opacity="0.87" d="M34.1574 23.619L35.5324 10.0129H16.3165L14.8506 24.4261" stroke="#040A1F" stroke-opacity="0.87" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M26.1725 14.727C25.8001 14.3244 25.1727 14.2969 24.7665 14.6655L21.0376 18.0485C20.7962 18.2676 20.6765 18.5885 20.7464 18.9069C21.0102 20.1088 21.9288 23.1439 24.6912 24.773C24.949 24.9251 25.2644 24.9305 25.5244 24.7822C26.5544 24.1951 29.1644 22.3851 29.6091 18.921C29.6444 18.6463 29.5457 18.3736 29.3577 18.1703L26.1725 14.727Z" fill="#2341DF" fill-opacity="0.8"/>
+</g>
+</g>
+</g>
+</svg>

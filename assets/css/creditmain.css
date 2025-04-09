@@ -1,0 +1,10 @@
+@import url(./settings.css);
+@import url(./style/credit/header.css);
+@import url(./style/credit/section.css);
+@import url(./style/credit/footer.css);
+@import url(./2XL/2xlcredit.css) only screen and (min-width:1400px);
+@import url(./XL/XLcredit.css) only screen and (max-width:1400px) and (min-width:1200px);
+@import url(./Lg/Lgcredit.css) only screen and (max-width:1200px) and (min-width:992px);
+@import url(./Md/Mdcredit.css) only screen and (max-width:992px) and (min-width:768px);
+@import url(./Sm/Smcredit.css) only screen and (max-width:768px) and (min-width:576px);
+@import url(./Xs/Xscredit.css) only screen and (max-width:576px);
