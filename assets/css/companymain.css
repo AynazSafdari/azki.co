@@ -2,8 +2,7 @@
 @import url(./style/company/header.css);
 @import url(./style/company/section.css);
 @import url(./style/company/footer.css);
-@import url(./Desktop/desktopcompany.css) only screen and (min-width:1685px);
-@import url(./2XL/2XLcompany.css) only screen and (max-width:1685px) and (min-width:1400px);
+@import url(./2XL/2XLcompany.css) only screen and (min-width:1400px);
 @import url(./XL/XLcompany.css) only screen and (max-width:1400px) and (min-width:1200px);
 @import url(./Lg/Lgcompany.css) only screen and (max-width:1200px) and (min-width:992px);
 @import url(./Md/Mdcompany.css) only screen and (max-width:992px) and (min-width:768px);
