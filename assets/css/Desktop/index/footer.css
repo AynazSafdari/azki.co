@@ -1,0 +1,387 @@
+.footer-menu{
+    width: 100%;
+    height: 56px;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1000001;
+    box-shadow: 0 -4px 16px 0 rgba(4, 10, 31, .04);
+}
+.footer-menu .item{
+    width: 80px;
+    height: 55px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 6px 0;
+}
+.footer-menu .item .svg{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.footer-menu .item span{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(4, 10, 31, .87);
+}
+
+
+
+footer{
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: block;
+}
+
+footer .first-section{
+    width: 68%;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer .first-section div{
+    width: 100%;
+    height: 80px;
+    padding: 0 32px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
+    border-radius: 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(4, 10, 31, .87);
+    align-items: center;
+}
+
+footer .first-section div .right{
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+}
+
+footer .first-section div .right .photo{
+    width: 50%;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    background-color: unset;
+    margin-left: 40px;
+}
+
+footer .first-section div .right .photo img{
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    background-color: unset;
+}
+
+footer .first-section div .right h6{
+    width: 107px;
+    height: 63px;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.68;
+    color: rgb(225, 243, 255);
+    margin-right: 12px;
+    
+}
+
+footer .first-section div .LEFT{
+    width: 122px;
+    height: 39px;
+    background-color: unset;
+    display: none;
+}
+footer .first-section div .LEFT button{
+    width: 122px;
+    height: 39px;
+    padding: 8px 45px;
+    border-radius: 8px;
+    border: unset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 143, 255);
+    position: relative;
+    left: 20%;
+}
+footer .first-section div .LEFT button span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+}
+footer .first-section div .left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: unset;
+    margin-left: 0;
+}
+
+footer .first-section div .left a{
+    padding-top: 4px;
+    margin-right: 16px; 
+}
+
+footer .first-section div .left a img{
+    width: 168px;
+    height: 40px;
+    display: inline-block;
+}
+
+footer .first-section div .left button{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-right: 16px;
+    background: unset;
+    border: unset;
+}
+footer .first-section div .left button:hover{
+    background-color: rgba(62, 64, 70, 0.87);
+}
+
+footer .first-section div .left button span{
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer .first-section div .left button span div{
+    width: 14px;
+    height: 14px;
+    display: inline-flex;
+    background-color: unset;
+    color: #fff;
+}
+
+footer .second-section{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 64px 80px 24px;
+}
+
+footer .second-section div{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer .second-section div .Right{
+    flex-basis: 25%;
+    flex-grow: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+}
+
+footer .second-section div .Right .text{
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+}
+
+footer .second-section div .Right .text .topic{
+    width: 100%;
+    height: 52px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+footer .second-section div .Right .text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    display: block;
+    text-align: justify;
+    color: rgba(4, 10, 31, 0.87);
+}
+
+footer .second-section div .Right .text .address{
+    width: 100%;
+    margin-top: 4px;
+    display: block;
+    margin-top: 24px;
+}
+
+footer .second-section div .Right .text .address .location{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+
+footer .second-section div .Right .text .address .envelope{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+
+footer .second-section div .Right .text .address p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    display: block;
+    color: rgba(4, 10, 31, 0.87);
+    margin-bottom: 16px;
+}
+
+footer .second-section div .middle{
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-top: 24px;
+    padding-right: 24px;
+    display: block;
+}
+
+footer .second-section div .middle div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+footer .second-section div .middle div .column{
+    display: block;
+    width: 20%;
+}
+
+footer .second-section div .middle div .column button{
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 4px 0;
+    color: #2341DF;
+    border: unset;
+    background-color: #fff;
+}
+footer .second-section div .middle div .column a:hover{
+    color: #23B4FF;
+}
+
+
+footer .second-section div .middle div hr{
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    display: none;
+}
+footer .second-section div .middle div .column .arrow{
+    width: 24px;
+    height: 24px;
+    direction: ltr;
+    margin: 0;
+    position: relative;
+    right: 90%;
+    bottom: 50%;
+    display: none;
+}
+footer .second-section div .middle div .column:hover a{
+    display: block;
+    z-index: 10;
+    text-decoration: none;
+}
+footer .second-section div .middle div .column a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: rgba(4, 10, 31, 0.87);
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer .second-section div .Left{
+    flex-basis: 25%;
+    flex-grow: 0;
+    padding-right: 24px;
+    padding-top: 24px;
+}
+
+footer .second-section div .Left div{
+    margin: 0 auto;
+    display: block;
+}
+
+footer .second-section div .Left div .icons{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer .second-section div .Left div .icons .icon{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+footer .second-section div .Left div .icons .icon .photo{
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+footer .second-section div .Left div .icons .icon .photo img{
+    width: 64px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+footer .third-section{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 16px 8%;
+    background: linear-gradient(90.06deg, #0052d4 .05%, #4364f7 54.75%, #6fb1fc 109.45%);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .third-section p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+footer .third-section .linkedin{
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
