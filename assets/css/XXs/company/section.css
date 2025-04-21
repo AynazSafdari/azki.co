@@ -1,5 +1,5 @@
 main{
-    width: 100%;
+    width: 117%;
     display: block;
     overflow: hidden;
 }
@@ -7,12 +7,13 @@ main{
 main section{
     width: 100%;
     display: block;
+    overflow: hidden;
 }
 
 section .about{
     width: 100%;
-    height: 520px;
-    padding: 280px 16px 0;
+    height: 760px;
+    padding: 150px 16px 0;
     background: radial-gradient(79.5% 79.5% at 50% 0, hsla(0, 0%, 100%, 0) 0, #fff 100%), url(../../../images/insurance-companies-bg.webp) -100px, #d3d3d3 -6.896px -135.046px / 126.451% 262.538% no-repeat;
     background-size: cover;
     display: flex;
@@ -97,6 +98,7 @@ section .about div .inside .left{
     padding-top: 16px;
     display: block;
     margin-top: 50px;
+    margin-right: -20px;
 }
 
 section .about div .inside .left div{
@@ -106,7 +108,6 @@ section .about div .inside .left div{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 section .about div .inside .left div .photo{
@@ -420,13 +421,13 @@ section .insurance{
     height: 452px;
     margin: 0 auto;
     display: block;
-    margin-top: 250px;
+    margin-top: 300px;
 }
 
 section .insurance .box{
     width: 100%;
     height: 452px;
-    padding: 48px 80px;
+    padding: 40px 30px;
     margin: auto;
     border-radius: 30px;
     border: 1px solid #e0e0e0;
@@ -478,6 +479,7 @@ section .insurance .box div .left{
     padding-top: 8px;
     padding-right: 8px;
     display: block;
+    margin-top: -30px;
 }
 
 section .insurance .box div .left h2{
@@ -498,12 +500,12 @@ section .insurance .box div .left p{
 
 /* popular companies */
 section .popular{
-    width: 100%;
-    height: 1622px;
+    width: 117%;
+    height: 1922px;
     position: absolute;
     min-height: 928px;
     z-index: 0;
-    background: radial-gradient(46.9% 46.1% at 100% 51.56%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 91.4%), radial-gradient(31.53% 36.84% at 51.11% 36.15%, rgba(255, 206, 67, .22) 0, rgba(255, 206, 67, 0) 100%), radial-gradient(39.83% 34.56% at 0 55.33%, rgba(0, 143, 255, .08) 0, rgba(0, 143, 255, 0) 100%);
+    background: unset;
     display: block !important;
 }
 
@@ -516,7 +518,8 @@ section .popular div{
 }
 
 section .popular div h2{
-    font-size: 40px;
+    width: 100%;
+    font-size: 26px;
     font-weight: 500;
     line-height: 1.6;
     text-align: center;
@@ -549,7 +552,7 @@ section .popular div .top .right .photo{
     height: 416px;
     display: flex;
     justify-content: center;
-    margin: -100px 14px;
+    margin: -100px -14px;
     padding: 0;
 }
 
@@ -562,7 +565,7 @@ section .popular div .top .left{
 }
 
 section .popular div .top .left h5{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 500;
     line-height: 1.74;
     color: rgb(4, 10, 31);
@@ -583,26 +586,27 @@ section .popular div .bottom{
     height: 1054px;
     display: flex;
     flex-flow: row wrap;
-    margin-top: 160px;
+    margin-top: 250px;
     margin-right: -16px;
 }
 
 section .popular div .bottom .card{
     flex-basis: 100%;
     flex-grow: 0;
-    height: 181px;
+    height: 251px;
     padding-top: 16px;
     padding-right: 16px;
     margin: 0;
     display: block;
     border: unset;
     background-color: unset;
+    margin-top: 20px;
 }
 
 section .popular div .bottom .card .inside{
     width: 100%;
     height: 100%;
-    padding: 32px;
+    padding: 15px;
     display: flex;
     border-radius: 8px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, .04), 0 8px 10px rgba(0, 0, 0, .08);
@@ -655,9 +659,9 @@ section .popular div .bottom .card .inside .text p{
 /* all companies */
 section .allcompanies{
     width: 100%;
-    height: 795px;
+    height: 1500px;
     display: block !important;
-    margin-top: 2300px;
+    margin-top: 3200px;
 }
 
 section .allcompanies div{
@@ -782,7 +786,6 @@ section .comments .boxes .mySwiper{
     width: 100%;
     height: 550px;
     display: flex;
-    flex-direction: column;
 }
 section .comments .boxes .mySwiper .swiper-wrapper{
     width: 100%;
@@ -794,7 +797,6 @@ section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide{
     width: 100%;
     height: 416px;
     display: flex;
-    flex-direction: column;
 }
 section .comments .boxes .mySwiper .swiper-wrapper .swiper-slide .box{
     flex-basis: 100%;

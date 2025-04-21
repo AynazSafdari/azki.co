@@ -361,10 +361,24 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(2){
 main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .secondline .photo{
     flex-basis: 100%;
     flex-grow: 0;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    position: absolute;
+    opacity: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div:hover .secondline .photo{
+    opacity: 1;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .secondline .offlights{
+    flex-basis: 100%;
+    flex-grow: 0;
     display: block;
     align-items: center;
     text-align: center;
     margin-bottom: 8px;
+    opacity: 1;
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .secondline .text{
@@ -385,6 +399,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .firstl
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .photo{
+    flex-basis: 100%;
+    flex-grow: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .offlights{
     flex-basis: 100%;
     flex-grow: 0;
     display: block;
@@ -417,6 +440,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
     align-items: center;
     text-align: center;
     margin-bottom: 8px;
+    display: none;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .secondline .offlights{
+    flex-basis: 100%;
+    flex-grow: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .secondline .text{
@@ -433,6 +465,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .photo{
+    flex-basis: 100%;
+    flex-grow: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .offlights{
     flex-basis: 100%;
     flex-grow: 0;
     display: block;
@@ -465,6 +506,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .second
     align-items: center;
     text-align: center;
     margin-bottom: 8px;
+    display: none;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .secondline .offlights{
+    flex-basis: 100%;
+    flex-grow: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .secondline .text{
@@ -486,6 +536,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .firstl
 }
 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .photo{
+    flex-basis: 100%;
+    flex-grow: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .offlights{
     flex-basis: 100%;
     flex-grow: 0;
     display: block;
@@ -572,6 +631,24 @@ main .DTOI .box .second-section div .insurances .card  div .secondline .photo{
     border: unset;
     box-shadow: none;
     padding: 0;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    /* opacity: 0; */
+}
+/* main .DTOI .box .second-section div .insurances .card  div .secondline .photo:hover{
+    opacity: 1;
+} */
+
+main .DTOI .box .second-section div .insurances .card  div .secondline .offlights{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
+    display: block;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+    opacity: 1;
 }
 
 

@@ -8,10 +8,11 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: -22%;
     background: #fff;
     z-index: 1000001;
     box-shadow: 0 -4px 16px 0 rgba(4, 10, 31, .04);
+    overflow: hidden;
 }
 .footer-menu .item{
     width: 80px;
@@ -38,19 +39,20 @@
 
 
 footer{
-    width: 100%;
-    height: 1009px;
+    width: 122% !important;
     position: relative;
     background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     display: block;
-    overflow: hidden;
+    right: 2%;
+    margin-top: 100px;
+    margin: 0 auto;
 }
 
 footer .first-section{
-    width: 97%;
+    width: 100%;
     height: 88px;
     margin: 0 auto;
     padding: 0 16px;
@@ -104,6 +106,7 @@ footer .first-section div .right h6{
     color: rgb(225, 243, 255);
     margin-right: 12px;
     margin-top: 10px;
+    
 }
 footer .first-section div .LEFT{
     width: 122px;
@@ -234,7 +237,7 @@ footer .second-section div .Right .text .address{
     width: 100%;
     height: 65px;
     display: block;
-    margin-top: 10px;
+    margin-top: 45px;
 }
 
 footer .second-section div .Right .text .address .location{
@@ -242,7 +245,7 @@ footer .second-section div .Right .text .address .location{
     height: 24px;
     display: inline-block;
     position: relative;
-    left: 2%;
+    left: 5%;
     top: 20px;
 }
 
@@ -251,8 +254,8 @@ footer .second-section div .Right .text .address .envelope{
     height: 24px;
     display: inline-block;
     position: relative;
-    left: 3%;
-    top: 25px;
+    left: 6%;
+    top: 23px;
 }
 
 footer .second-section div .Right .text .address p{
@@ -388,13 +391,12 @@ footer .second-section div .Left div .icons .icon .photo img{
 
 footer .third-section{
     width: 100%;
-    height: 95px;
     margin: 0 auto;
     margin-top: 24px;
     padding: 16px 8%;
     background: linear-gradient(90.06deg, #0052d4 .05%, #4364f7 54.75%, #6fb1fc 109.45%);
     align-items: center;
-    display: block;
+    display: flex;
     justify-content: space-between;
     position: relative;
     margin-bottom: 56px;
@@ -404,10 +406,7 @@ footer .third-section p{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-    text-align: center;
     color: #FFFFFF;
-    display: block;
-    margin: 0;
 }
 
 footer .third-section .linkedin{
@@ -415,16 +414,7 @@ footer .third-section .linkedin{
     background-color: #fff;
     width: 30px;
     height: 30px;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    right: 50%;
 }
-
-footer .third-section .linkedin svg{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-

@@ -9,4 +9,5 @@
 @import url(./Lg/Lg.css) only screen and (max-width:1200px) and (min-width:992px);
 @import url(./Md/Md.css) only screen and (max-width:992px) and (min-width:768px);
 @import url(./Sm/Sm.css) only screen and (max-width:768px) and (min-width:576px);
-@import url(./Xs/Xs.css) only screen and (max-width:576px);
+@import url(./Xs/Xs.css) only screen and (max-width:576px) and (min-width:507px);
+@import url(./XXs/XXs.css) only screen and (max-width:507px);

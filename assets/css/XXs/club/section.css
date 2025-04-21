@@ -1,6 +1,10 @@
 main{
     width: 100%;
     display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -2%;
+    overflow: hidden;
 }
 
 main div{
@@ -14,14 +18,16 @@ main div{
 main  div section{
     width: 100%;
     display: block;
+    margin: 0 auto;
 }
 
+
+
 section .azkiclub{
-    width: 64%;
-    padding-top: 64px;
-    padding-bottom: 32px;
+    width: 100%;
     margin: 0 auto;
     display: block;
+    padding: 64px 16px 32px 16px ;
 }
 
 section .azkiclub h2{
@@ -59,13 +65,15 @@ section .azkiclub .boxes div{
 }
 
 section .azkiclub .boxes div .box{
-    flex-basis: 33%;
+    flex-basis: 100%;
     flex-grow: 0;
     padding-right: 16px;
     padding-top: 16px;
     display: block;
     margin-bottom: 30px;
     margin-left: 15px;
+    height: 181px;
+    margin: 20px auto;
 }
 
 section .azkiclub .boxes div .box a{
@@ -91,6 +99,7 @@ section .azkiclub .boxes div .box a div .photo{
     border: unset;
     box-shadow: none;
     padding: 0;
+    margin-top: 10px;
 }
 
 section .azkiclub .boxes div .box a div h6{
@@ -161,7 +170,7 @@ section .azkiclub .btn a button span{
 
 /* azki club for you */
 section .foryou{
-    width: 64%;
+    width: 97%;
     height: 305px;
     margin: 298px auto 120px;
     position: relative;
@@ -169,11 +178,11 @@ section .foryou{
 }
 
 section .foryou .photo{
-    width: 28.7%;
-    height: 234px;
+    width: 280px;
+    height: 196px;
     position: absolute;
     right: 50%;
-    top: -204px;
+    top: -165px;
     transform: translateX(50%);
     display: block;
     padding: 0;
@@ -187,13 +196,14 @@ section .foryou .photo img{
 
 section .foryou .box{
     width: 100%;
+    height: 364px;
     display: flex;
     flex-flow: wrap;
     -webkit-box-pack: justify;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 64px 80px;
+    padding: 32px 24px 48px 24px;
     background: #fff;
     box-shadow: 0 97px 39px -70px rgba(4, 10, 31, .1);
     border-radius: 50px;
@@ -203,13 +213,15 @@ section .foryou .box{
 }
 
 section .foryou .box .right{
-    flex-basis: 25%;
+    flex-basis: 100%;
+    height: 50px;
     flex-grow: 0;
     display: block;
     padding: 0;
 }
 
 section .foryou .box .right div{
+    height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,14 +235,21 @@ section .foryou .box .right div h3{
     line-height: 1.27;
     color: rgb(4, 10, 31);
     display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+section .foryou .box .right div h3 br{
+    display: none;
 }
 
 section .foryou .box .left{
-    height: 175px;
-    flex-basis: 66%;
+    height: 231px;
+    flex-basis: 100%;
     flex-grow: 0;
     display: block;
     padding: 0;
+    margin-top: 35px;
 }
 
 section .foryou .box .left div{
@@ -249,8 +268,8 @@ section .foryou .box .left div .text{
     height: 119px;
     flex-basis: 50%;
     flex-grow: 0;
-    padding-right: 64px;
-    padding-top: 64px;
+    padding-right: 24px;
+    padding-top: 44px;
     display: block;
 }
 
@@ -260,9 +279,12 @@ section .foryou .box .left div .text h2{
     line-height: 1.71;
     color: rgba(4, 10, 31, 0.87);
     display: block;
+    width: 200px;
+    margin-top: -30px;
 }
 
 section .foryou .box .left div .text p{
+    width: 130%;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
@@ -273,10 +295,11 @@ section .foryou .box .left div .text p{
 
 /* azki club options */
 section .options{
-    width: 64%;
+    width: 80%;
+    height: 1185px;
     display: block;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-bottom: 200px;
 }
 
 section .options h5{
@@ -296,8 +319,8 @@ section .options div{
 }
 
 section .options div .box{
-    height: 238px;
-    flex-basis: 33%;
+    height: 190px;
+    flex-basis: 100%;
     flex-grow: 0;
     display: block;
     padding: 0;
@@ -311,11 +334,20 @@ section .options div .box div{
     justify-content: unset;
 }
 
+section .options div .box div .SVG{
+   width: 98%;
+   height: 47px;
+   text-align: center;
+   display: block;
+}
+
 section .options div .box div .photo{
     width: 100%;
     height: 95px;
-    display: block;
+    display: none;
     margin-right: 100px;
+    align-items: center;
+    align-content: center;
 }
 
 section .options div .box div .text{
@@ -335,22 +367,24 @@ section .options div .box div .text h6{
 }
 
 section .options div .box div .text p{
+    width: 90%;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     display: block;
     color: rgba(4, 10, 31, 0.6);
     margin-top: 8px;
+    text-align: center;
+    padding-right: 20px;
 }
 
 /* companies */
 section .company{
-    width: 64%;
+    width: 100%;
     height: 222px;
     padding: 0 56px;
     display: block;
     margin: 0 auto;
-    margin-top: 140px;
 }
 
 section .company h5{
@@ -363,6 +397,7 @@ section .company h5{
 }
 
 section .company div{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -371,17 +406,17 @@ section .company div{
 }
 
 section .company div .icon{
-    width: 136px;
+    width: 80px;
     height: 79px;
-    padding: 0 24px;
+    padding: 0 2px;
     display: block;
     margin: 0;
 }
 
 /* questions */
 section .questions{
-    width: 64%;
-    height: 837px;
+    width: 100%;
+    height: 814px;
     display: block;
     margin-top: 144px;
     margin: 0 auto;
@@ -408,20 +443,23 @@ section .questions div .body{
     display: flex;
     justify-content: space-between;
     margin-top: 54px;
+    margin-bottom: 150px;
     padding: 0;
 }
 
 section .questions div .body .right{
     width: 37%;
     margin-left: 100px;
-    display: block;
+    display: none;
     padding: 0;
 }
 
 section .questions div .body .left{
-    width: 55%;
+    width: 68%;
     display: block;
     padding: 0;
+    margin: 0 auto;
+    margin-right: 10px;
 }
 
 section .questions div .body .left [id=accordionFlushExample]{
@@ -434,7 +472,7 @@ section .questions div .body .left .accordion.accordion-flush{
 }
 
 section .questions div .body .left .accordion-item{
-    width: 110%;
+    width: 120%;
     height: 56px;
     margin: 0;
     margin-bottom: 26px;

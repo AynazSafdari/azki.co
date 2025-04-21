@@ -373,9 +373,7 @@ header .leftside button:hover{
 
 /* mega menu */
 header .rightside nav .m1 .megamenu{
-    margin-top: 32px !important;
-    margin-right: -100px !important;
-    width: 1535px;
+    width: 1089px;
     padding: 40px 64px;
     height: 455px;
     background: linear-gradient(33.21deg, #e1f3ff 4.07%, #fff 64.37%);
@@ -383,6 +381,8 @@ header .rightside nav .m1 .megamenu{
     border-radius: 16px;
    margin: 0 auto;
     display: none;
+    position: relative;
+    top: -100%;
 }
 
  header .rightside nav .m1:hover .megamenu{
@@ -396,7 +396,6 @@ header .rightside nav .m1 .megamenu div{
     flex-flow: wrap;
     margin-top: -8px;
     margin-right: -8px;
-    
 }
 
 header .rightside nav .m1 .megamenu div .column{
@@ -460,8 +459,6 @@ header .rightside nav .m2 .menu{
     width: 240px;
     height: 119px;
     position: absolute;
-    top: 43px;
-    left: 1179px;
     opacity: 1;
     background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.87);
@@ -1000,6 +997,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .second
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .secondline .offlights{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
     display: block;
     border: unset;
     box-shadow: none;
@@ -1040,6 +1046,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .second
     left: 20%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .photo{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .offlights{
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
@@ -1086,6 +1101,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .secondline .offlights{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
     display: block;
     border: unset;
     box-shadow: none;
@@ -1126,6 +1150,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
     left: 20%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .photo{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .offlights{
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
@@ -1172,6 +1205,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .second
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .secondline .offlights{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
     display: block;
     border: unset;
     box-shadow: none;
@@ -1212,6 +1254,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .second
     left: 20%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .photo{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .offlights{
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
@@ -1256,6 +1307,15 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .second
 } 
 
 main .DTOI .box .second-section div .insurances .card  div .secondline .photo{
+    flex-basis: 16%;
+    height: 64px;
+    flex-grow: 0;
+    display: none;
+    border: unset;
+    box-shadow: none;
+    padding: 0;
+}
+main .DTOI .box .second-section div .insurances .card  div .secondline .offlights{
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;

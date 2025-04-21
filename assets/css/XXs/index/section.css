@@ -1,10 +1,10 @@
 main{
-    width: 100%;
+    width: 126%;
     display: block;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
-    
+    left: 0;
 }
 
 main .DTOI{
@@ -23,7 +23,7 @@ main .DTOI{
 }
 
 main .DTOI .box{
-    width: 97%;
+    width: 100%;
     height: 704px;
     margin: 0 auto;
     padding-left: 16px;
@@ -175,7 +175,7 @@ main .DTOI .box .first-section .leftside{
 }
 
 main .DTOI .box .first-section .leftside .slider{
-    width: 64.5%;
+    width: 98%;
     margin: 0 auto 42px;
     height: 88px;
 }
@@ -252,7 +252,7 @@ main .DTOI .box .first-section .leftside .slider .carousel-item a div span img{
 
 main .DTOI .box .second-section{
     width: 100%;
-    height: 900px;
+    height: 1033px;
     border-radius: 16px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -452,7 +452,7 @@ main .DTOI .box .second-section div .insurances .card  div .firstline div span{
 }
 
 main .DTOI .box .second-section div .insurances .card  div .secondline{
-    width: 100%;
+    width: 84%;
     height: 64px;
     display: flex;
     flex-flow: row nowrap;
@@ -501,6 +501,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -510,7 +511,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(3) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 38%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .photo{
     flex-basis: 16%;
@@ -553,6 +554,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -562,7 +564,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(4) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 40%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .secondline .photo{
     flex-basis: 16%;
@@ -605,6 +607,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -614,7 +617,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(5) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 40%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .photo{
     flex-basis: 16%;
@@ -657,6 +660,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -666,7 +670,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(6) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 40%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .secondline .photo{
     flex-basis: 16%;
@@ -709,6 +713,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -718,7 +723,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(7) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 40%;
 } 
 main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .photo{
     flex-basis: 16%;
@@ -761,6 +766,7 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .second
     right: 10%;
 }
 main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .secondline .text div p{
+    width: 190px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -770,17 +776,22 @@ main .DTOI .box .second-section div .insurances .card:nth-of-type(8) div .second
     box-shadow: none;
     position: relative;
     top: 50%;
-    left: 20%;
+    left: 40%;
 } 
 
 main .DTOI .box .second-section div .insurances .card  div .secondline .photo{
     flex-basis: 16%;
     height: 64px;
     flex-grow: 0;
-    display: none;
+    display: block;
     border: unset;
     box-shadow: none;
     padding: 0;
+    position: absolute;
+    opacity: 0;
+}
+main .DTOI .box .second-section div .insurances .card:hover  div .secondline .photo{
+    opacity: 1 !important;
 }
 main .DTOI .box .second-section div .insurances .card  div .secondline .offlights{
     flex-basis: 16%;
@@ -867,8 +878,7 @@ section .app{
     width: 100%;
     height: 340px;
     position: relative;
-    display: block;
-    margin-top: 700px;
+    padding-top: 30px;
     margin: 0 auto;
     margin-bottom: -200px;
 }
@@ -1316,12 +1326,14 @@ section .loan .box div .text div .firstline .topic h2{
 }
 
 section .loan .box div .text div .firstline .description{
+    width: 320px;
     display: flex;
     flex-basis: 100%;
     flex-grow: 0;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
     height: 31px;
+    margin-right: -24;
 }
 
 section .loan .box div .text div .firstline .description div{
@@ -1330,11 +1342,13 @@ section .loan .box div .text div .firstline .description div{
 }
 
 section .loan .box div .text div .firstline .description div p{
+    width: 330px;
     font-size: 17px;
     font-weight: 500;
     line-height: 1.68;
     display: block;
     color: rgba(4, 10, 31, 0.6);
+    margin-right: -50px;
 }
 
 section .loan .box div .text div .secondline{
@@ -1351,6 +1365,7 @@ section .loan .box div .text div .secondline p{
     display: block;
     text-align: justify;
     color: rgba(4, 10, 31, 0.87);
+    margin-right: -30px;
 }
 
 section .loan .box div .text div .thirdline{
@@ -1358,6 +1373,7 @@ section .loan .box div .text div .thirdline{
     flex-flow: row wrap;
     width: 100%;
     height: 216px;
+    margin-right: -40px;
 }
 
 section .loan .box div .text div .thirdline .right{
@@ -1662,12 +1678,14 @@ section .money .box div .text div .firstline .description div{
 }
 
 section .money .box div .text div .firstline .description div p{
+    width: 390px;
     font-size: 19px;
     font-weight: 500;
     line-height: 1.68;
     display: block;
     color: rgba(4, 10, 31, 0.6);
     text-align: center;
+    margin-right: -60px;
 }
 
 section .money .box div .text div .secondline{
@@ -1679,12 +1697,13 @@ section .money .box div .text div .secondline{
 }
 
 section .money .box div .text div .secondline p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     display: block;
     text-align: justify;
     color: rgba(4, 10, 31, 0.87);
+    margin-right: -20px;
 }
 
 section .money .box div .text div .thirdline{
@@ -1692,6 +1711,7 @@ section .money .box div .text div .thirdline{
     flex-flow: row wrap;
     width: 100%;
     height: 216px;
+    margin-right: -35px;
 }
 
 section .money .box div .text div .thirdline .right{
@@ -1774,7 +1794,7 @@ section .money .box div .text div .thirdline .left a button span .arrow{
 
 /* accident */
 section .accident{
-    width: 64%;
+    width: 85%;
     height: 750px;
     padding: 200px 0;
     display: block;
@@ -1945,7 +1965,7 @@ section .health{
     display: block;
     margin-top: 400px;
     margin-bottom: 200px;
-   padding-right: 16px;
+   padding-right: 0;
 }
 
 section .health div{
@@ -2053,7 +2073,7 @@ section .health div .list .left a{
 }
 
 section .health div .list .left a button{
-    width: 40%;
+    width: 45%;
     height: 39px;
     display: flex;
     align-items: center;
@@ -2064,8 +2084,8 @@ section .health div .list .left a button{
     border-radius: 8px;
     padding: 8px 60px;
     position: absolute;
-    right: 36%;
-    bottom: 19%;
+    right: 28%;
+    bottom: 17%;
     cursor: pointer;
     font-size: 13px;
 }
@@ -2167,7 +2187,7 @@ section .partner-companies div .insurances{
 section .partner-companies div .insurances div{
     width: 24%;
     height: 63px;
-    margin-left: 16px;
+    margin-left: 30px;
 }
 section .partner-companies div .insurances div:nth-of-type(5){
     display: none;
@@ -2512,7 +2532,7 @@ section .info .topic{
 
 section .info .topic h2{
     width: 100%;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 500;
     line-height: 1.6;
     display: block;
@@ -2524,7 +2544,7 @@ section .info .topic h2{
 section .info .topic p{
     width: 100%;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 1.68;
     display: block;
     text-align: center;
@@ -2577,7 +2597,7 @@ section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide{
 }
 section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide .card{
     width: 100%;
-    height: 332px;
+    height: 395px;
     padding: 32px;
     margin: 0 16px 16px;
     border-radius: 16px;
@@ -2593,6 +2613,8 @@ section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide .card .inside{
     display: block;
     border: unset;
     box-shadow: none;
+    padding: 0;
+    padding-top: 40px;
 }
 section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide .card .inside .firstsection{
     width: 100%;
@@ -2642,7 +2664,7 @@ section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide .card .inside .s
     display: block;
     text-align: left;
     position: relative;
-    bottom: 15%;
+    bottom: 3%;
 }
 
 section .info .boxes .swiper.INFO .swiper-wrapper .swiper-slide .card .inside .secondsection a{
@@ -2678,6 +2700,7 @@ section .info .boxes .swiper.INFO  .swiper-button-next{
     margin: 0;
     margin-left: 210px;
     margin-top: 135px;
+    direction: ltr;
 }
 section .info .boxes .swiper.INFO .swiper-button-prev{
     display: flex;
@@ -2690,6 +2713,7 @@ section .info .boxes .swiper.INFO .swiper-button-prev{
     margin: 0;
     margin-right: 210px;
     margin-top: 135px;
+    direction: ltr;
 }
 
 section .info .boxes div{

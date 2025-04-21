@@ -12,6 +12,7 @@
     background: #fff;
     z-index: 1000001;
     box-shadow: 0 -4px 16px 0 rgba(4, 10, 31, .04);
+    overflow: hidden;
 }
 .footer-menu .item{
     width: 80px;
@@ -38,7 +39,7 @@
 
 
 footer{
-    width: 100%;
+    width: 117%;
     height: 1009px;
     position: relative;
     background: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0) 15.59%), linear-gradient(90.32deg, #fdf5e0 -2.35%, #fff 45.56%, #e2f7f9 99.81%);
@@ -46,6 +47,7 @@ footer{
     background-position: top;
     background-size: cover;
     display: block;
+    margin-top: -50px;
     overflow: hidden;
 }
 
@@ -103,7 +105,7 @@ footer .first-section div .right h6{
     line-height: 1.68;
     color: rgb(225, 243, 255);
     margin-right: 12px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 footer .first-section div .LEFT{
     width: 122px;
@@ -242,7 +244,7 @@ footer .second-section div .Right .text .address .location{
     height: 24px;
     display: inline-block;
     position: relative;
-    left: 2%;
+    left: 5%;
     top: 20px;
 }
 
@@ -251,8 +253,8 @@ footer .second-section div .Right .text .address .envelope{
     height: 24px;
     display: inline-block;
     position: relative;
-    left: 3%;
-    top: 25px;
+    left: 6%;
+    top: 22px;
 }
 
 footer .second-section div .Right .text .address p{

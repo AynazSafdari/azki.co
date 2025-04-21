@@ -501,7 +501,7 @@ section .insurance .box div .left p{
 /* popular companies */
 section .popular{
     width: 100%;
-    height: 1622px;
+    height: 1922px;
     position: absolute;
     min-height: 928px;
     z-index: 0;
@@ -592,13 +592,14 @@ section .popular div .bottom{
 section .popular div .bottom .card{
     flex-basis: 100%;
     flex-grow: 0;
-    height: 151px;
+    height: 251px;
     padding-top: 16px;
     padding-right: 16px;
     margin: 0;
     display: block;
     border: unset;
     background-color: unset;
+    margin-top: 20px;
 }
 
 section .popular div .bottom .card .inside{
@@ -659,7 +660,7 @@ section .allcompanies{
     width: 100%;
     height: 1500px;
     display: block !important;
-    margin-top: 2300px;
+    margin-top: 3200px;
 }
 
 section .allcompanies div{

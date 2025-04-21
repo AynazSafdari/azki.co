@@ -29,6 +29,7 @@ header .menu .RIGHT{
     position: relative;
     left: 0;
     display: block !important;
+    padding: 40px;
 }
 header .menu .CENTER{
     position: relative;
@@ -38,6 +39,7 @@ header .menu .LEFT{
     position: relative;
     right: 0;
     display: block !important;
+    padding: 40px;
 }
 
 header .menu .rightside{

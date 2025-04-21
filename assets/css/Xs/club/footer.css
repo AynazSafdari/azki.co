@@ -100,12 +100,12 @@ footer .first-section div .right .photo img{
 footer .first-section div .right h6{
     width: 107px;
     height: 63px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.68;
     color: rgb(225, 243, 255);
     margin-right: 12px;
-    
+    margin-top: 10px;
 }
 footer .first-section div .LEFT{
     width: 122px;
@@ -320,7 +320,7 @@ footer .second-section div .middle div .column .arrow{
     bottom: 50%;
 }
 footer .second-section div .middle div .column:hover a{
-    display: block;
+    display: none;
     z-index: 10;
 }
 
